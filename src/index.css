@@ -61,3 +61,45 @@ section.game-status > h2 {
   border-radius: 3px;
   padding: 4.5px;
 }
+
+.guess-word {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+  margin-top: 30px;
+  width: 253.5;
+  height: 51.5;
+  gap: 1.5px;
+}
+.guess-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 4.5px;
+  background: #323232;
+  border-bottom: 1px solid #f9f4da;
+  font-size: 1.52rem;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+  margin-top: 70px;
+  width: 253.5;
+  height: 51.5;
+  gap: 1.5px;
+}
+
+.key {
+  height: 35px;
+  width: 35px;
+  background-color: #fcba29;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  cursor: pointer;
+}
