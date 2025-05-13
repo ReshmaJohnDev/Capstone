@@ -27,33 +27,37 @@ header > h1 {
 header > p {
   font-size: 0.875;
   color: #8e8e8e;
+  max-width: 350px;
 }
 
-.status {
+section.game-status {
   background: #10a95b;
-  font-family: Hanken Grotesk;
-  width: 352;
-  height: 59;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 4px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  font-weight: 500;
-}
-
-.status > h1,
-.status > p {
+  margin-block: 30px;
   color: #f9f4da;
-  text-align: center;
 }
 
-.status > h1 {
-  font-size: 20px;
+.language_chip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  max-width: 350px;
 }
 
-.status > p {
-  font-size: 16px;
-  padding-left: 20px;
+section.game-status > p {
+  margin: 5px;
+}
+
+section.game-status > h2 {
+  font-size: 1.25rem;
+  margin: 5px;
+}
+
+.chip {
+  border-radius: 3px;
+  padding: 4.5px;
 }
